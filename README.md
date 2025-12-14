@@ -48,7 +48,9 @@ These results demonstrate strong accuracy and suitability for **real-time hazard
 ### 1️⃣ Install YOLOv8
 ```bash
 pip install ultralytics
+2️⃣ Run Detection on an Image
 yolo detect predict model=best.pt source=fire.jpg conf=0.4
+3️⃣ Run Detection on a Video
 yolo detect predict model=best.pt source=video.mp4 conf=0.4
 
 
