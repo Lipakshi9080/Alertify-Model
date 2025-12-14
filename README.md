@@ -41,4 +41,14 @@ These results demonstrate strong accuracy and suitability for **real-time hazard
 
 ## 📁 Repository Contents
 
+---
+
+## ▶️ How to Test the Model
+
+### 1️⃣ Install YOLOv8
+```bash
+pip install ultralytics
+yolo detect predict model=best.pt source=fire.jpg conf=0.4
+yolo detect predict model=best.pt source=video.mp4 conf=0.4
+
 
